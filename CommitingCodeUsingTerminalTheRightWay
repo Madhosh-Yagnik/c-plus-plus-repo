@@ -1,0 +1,406 @@
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git config --global user.name "Madhosh_Yagnik"
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git config --global user.email "thepeakpoint360@gmail.com"
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote add origin https://github.com/Madhosh-Yagnik/c-plus-plus-repo
+fatal: remote origin already exists.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add .
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git commit -m 'bug fix for incorrect array syntax'
+On branch master
+nothing to commit, working tree clean
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git commit -m 'bug fix for incorrect array syntax'
+On branch master
+nothing to commit, working tree clean
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+fatal: repository 'https://github.com/Madhosh-Yagnik/c-plus-plus-repo/blob/master/sel_sort.cpp/' not found
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo/blob/master/sel_sort.cpp (fetch)
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo/blob/master/sel_sort.cpp (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ destination https://github.com/Madhosh-Yagnik/c-plus-plus-repo/blob/master/sel_sort.cpp
+destination: command not found
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo/blob/master/sel_sort.cpp (fetch)
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo/blob/master/sel_sort.cpp (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote rm origin
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add remote origin https://github.com/Madhosh-Yagnik/c-plus-plus-repo
+fatal: pathspec 'remote' did not match any files
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote add origin https://github.com/Madhosh-Yagnik/c-plus-plus-repo
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git origin -v
+git: 'origin' is not a git command. See 'git --help'.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (fetch)
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git commit -m 'bug fix for incorrect array syntax'
+On branch master
+nothing to commit, working tree clean
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (fetch)
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add .
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+impala1439@HP-cc129TX:~/c-plus-plus-repo$
+impala1439@HP-cc129TX:~/c-plus-plus-repo$
+impala1439@HP-cc129TX:~/c-plus-plus-repo$
+impala1439@HP-cc129TX:~/c-plus-plus-repo$
+impala1439@HP-cc129TX:~/c-plus-plus-repo$
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add .
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+Username for 'https://github.com': Madhosh_Yagnik
+Password for 'https://Madhosh_Yagnik@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Madhosh-Yagnik/c-plus-plus-repo/'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add .
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+Username for 'https://github.com':  Madhosh-Yagnik
+Password for 'https:// Madhosh-Yagnik @github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Madhosh-Yagnik/c-plus-plus-repo/'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add .
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git commit -m 'changes'
+On branch master
+nothing to commit, working tree clean
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+Username for 'https://github.com': Madhosh_Yagnik
+Password for 'https://Madhosh_Yagnik@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Madhosh-Yagnik/c-plus-plus-repo/'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+Username for 'https://github.com': Madhosh_Yagnik
+Password for 'https://Madhosh_Yagnik@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Madhosh-Yagnik/c-plus-plus-repo/'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (fetch)
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git rm origin
+fatal: pathspec 'origin' did not match any files
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git rm- origin
+git: 'rm-' is not a git command. See 'git --help'.
+
+The most similar command is
+        rm
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git rm origin
+fatal: pathspec 'origin' did not match any files
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (fetch)
+origin  https://github.com/Madhosh-Yagnik/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git rm origin https://github.com/Madhosh-Yagnik/c-plus-plus-repo
+fatal: pathspec 'origin' did not match any files
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git rm https://github.com/Madhosh-Yagnik/c-plus-plus-repo
+fatal: pathspec 'https://github.com/Madhosh-Yagnik/c-plus-plus-repo' did not match any files
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote rm origin
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git config --global user.name "loneCoder"
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git config --global user.email "thepeakpoint360@gmail.com"
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git init
+Reinitialized existing Git repository in /home/impala1439/c-plus-plus-repo/.git/
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote add https://github.com/Madhosh-Yagnik/c-plus-plus-repo
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote add c-plus-plus-repo https://github.com/Madhosh-Yagnik/c-plus-plus-repo
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+c-plus-plus-repo        https://github.com/Madhosh-Yagnik/c-plus-plus-repo (fetch)
+c-plus-plus-repo        https://github.com/Madhosh-Yagnik/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add .
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git commit -m 'updated bug in the array syntax error'
+On branch master
+nothing to commit, working tree clean
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push c-plus-plus-repo master
+Username for 'https://github.com': loneCoder
+Password for 'https://loneCoder@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Madhosh-Yagnik/c-plus-plus-repo/'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+c-plus-plus-repo        https://github.com/Madhosh-Yagnik/c-plus-plus-repo (fetch)
+c-plus-plus-repo        https://github.com/Madhosh-Yagnik/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git rm c-plus-plus-repo
+fatal: pathspec 'c-plus-plus-repo' did not match any files
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git rm remote c-plus-plus-repo
+fatal: pathspec 'remote' did not match any files
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote rm c-plus-plus-repo
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ sudo apt-get clean
+[sudo] password for impala1439:
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git config --global user.name "loneCoder021"
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git congig --global user.email "thepeakpoint360@gmail.com"
+git: 'congig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git config --global user.email "thepeakpoint360@gmail.com"
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote add origin https://github.com/loneCoder021/c-plus-plus-repo
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -c
+error: unknown switch `c'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/loneCoder021/c-plus-plus-repo (fetch)
+origin  https://github.com/loneCoder021/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git commit -m 'bug fix using vector array, reduced complexity'
+On branch master
+nothing to commit, working tree clean
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push remote origin
+error: src refspec origin does not match any.
+error: failed to push some refs to 'remote'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push remote c-plus-plus-repo
+error: src refspec c-plus-plus-repo does not match any.
+error: failed to push some refs to 'remote'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push remote c-plus-plus-repo origin
+error: src refspec c-plus-plus-repo does not match any.
+error: src refspec origin does not match any.
+error: failed to push some refs to 'remote'
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push remote https://github.com/loneCoder021/c-plus-plus-repo
+fatal: remote part of refspec is not a valid name in https://github.com/loneCoder021/c-plus-plus-repo
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+Username for 'https://github.com': loneCoder021
+Password for 'https://loneCoder021@github.com':
+To https://github.com/loneCoder021/c-plus-plus-repo
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/loneCoder021/c-plus-plus-repo'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git fetch https://github.com/loneCoder021/c-plus-plus-repo
+warning: no common commits
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 30 (delta 7), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+From https://github.com/loneCoder021/c-plus-plus-repo
+ * branch            HEAD       -> FETCH_HEAD
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git pull https://github.com/loneCoder021/c-plus-plus-repoFrom https://github.com/loneCoder021/c-plus-plus-repo
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git force push https://github.com/loneCoder021/c-plus-plus-repo
+git: 'force' is not a git command. See 'git --help'.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git clone https://github.com/loneCoder021/c-plus-plus-repo
+Cloning into 'c-plus-plus-repo'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 30 (delta 7), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+c-plus-plus-repo  new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ rmdir c-plus-plus-repo
+rmdir: failed to remove 'c-plus-plus-repo': Directory not empty
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+c-plus-plus-repo  new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+c-plus-plus-repo  new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ cd
+impala1439@HP-cc129TX:~$ ls
+array  array.cpp  c-plus-plus-repo  this  this.cpp
+impala1439@HP-cc129TX:~$ git pull https://github.com/loneCoder021/c-plus-plus-repo
+fatal: not a git repository (or any of the parent directories): .git
+impala1439@HP-cc129TX:~$ git init
+Initialized empty Git repository in /home/impala1439/.git/
+impala1439@HP-cc129TX:~$ https://github.com/loneCoder021/c-plus-plus-repo
+-bash: https://github.com/loneCoder021/c-plus-plus-repo: No such file or directory
+impala1439@HP-cc129TX:~$ ls
+array  array.cpp  this  this.cpp
+impala1439@HP-cc129TX:~$ git fetch https://github.com/loneCoder021/c-plus-plus-repo
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 30 (delta 7), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+From https://github.com/loneCoder021/c-plus-plus-repo
+ * branch            HEAD       -> FETCH_HEAD
+impala1439@HP-cc129TX:~$ ls
+array  array.cpp  this  this.cpp
+impala1439@HP-cc129TX:~$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+impala1439@HP-cc129TX:~$ git fetch https://github.com/loneCoder021/c-plus-plus-repo
+From https://github.com/loneCoder021/c-plus-plus-repo
+ * branch            HEAD       -> FETCH_HEAD
+impala1439@HP-cc129TX:~$ git fetch https://github.com/loneCoder021/c-plus-plus-repo  -> FETCH_HEAD
+fatal: Couldn't find remote ref -
+impala1439@HP-cc129TX:~$ git clone  https://github.com/loneCoder021/c-plus-plus-repo
+Cloning into 'c-plus-plus-repo'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 30 (delta 7), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+impala1439@HP-cc129TX:~$ ls
+FETCH_HEAD  array  array.cpp  c-plus-plus-repo  this  this.cpp
+impala1439@HP-cc129TX:~$ cd c-plus-plus-repo
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+sel_sort.cpp  simple_sort.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ vim new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp  sel_sort.cpp  simple_sort.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git remote -v
+origin  https://github.com/loneCoder021/c-plus-plus-repo (fetch)
+origin  https://github.com/loneCoder021/c-plus-plus-repo (push)
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add .
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git commit -m 'big fixes from version 1'
+[master 7418d71] big fixes from version 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push remote origin
+fatal: 'remote' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push c-plus-plus-repo origin
+fatal: 'c-plus-plus-repo' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ ls
+new.cpp  sel_sort.cpp  simple_sort.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git add new.cpp
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push remote origin
+fatal: 'remote' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+impala1439@HP-cc129TX:~/c-plus-plus-repo$ git push origin master
+Username for 'https://github.com': loneCoder021
+Password for 'https://loneCoder021@github.com':
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 352 bytes | 352.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/loneCoder021/c-plus-plus-repo
+   0c0aaaa..7418d71  master -> master
+impala1439@HP-cc129TX:~/c-plus-plus-repo$
